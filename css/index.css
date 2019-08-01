@@ -1,0 +1,118 @@
+
+@font-face {
+  font-family: 'iconfont';  /* project id 449060 */
+  src: url('//at.alicdn.com/t/font_449060_f8k4cza41cx9wwmi.eot');
+  src: url('//at.alicdn.com/t/font_449060_f8k4cza41cx9wwmi.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_449060_f8k4cza41cx9wwmi.woff') format('woff'),
+  url('//at.alicdn.com/t/font_449060_f8k4cza41cx9wwmi.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_449060_f8k4cza41cx9wwmi.svg#iconfont') format('svg');
+}
+
+.iconfont {
+  position: absolute;
+  bottom: 70px;
+  left: 10px;
+  font-family:"iconfont" !important;
+  font-size:40px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-dingwei:before { content: "\e60b"; }
+
+body {
+	background-image: url('../images/background.jpg');
+}
+
+#u-inp-city {
+	position: absolute;
+	left: 150px;
+	top: 100px;
+	padding: 15px;
+	width: 200px;
+	font-size: 18px;
+	border: none; 
+	outline: none;
+	background-color: transparent;
+}
+
+.local-info {
+	position: absolute;
+	right: 100px;
+	top: 150px;
+	color: #fff;
+	font-size: 20px;
+}
+
+#time {
+	margin-top: 10px;
+	letter-spacing: 2px;
+}
+
+.weather {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	left: 0;
+	right: 0;
+	height: 300px;
+	background-color: rgba(200,200,192,0.4);
+}
+
+#today {
+	width: 30%;
+	height: 150px;
+	position: absolute;
+	top: 25px;
+	text-align: center;
+	padding: 15px;
+}
+
+#t-info, #t-img-wind {
+	display: inline-block;
+}
+
+#t-info {
+	margin-right:30px;
+	color: #fff;
+}
+#t-img-wind img{
+	width: 80px;
+	height: 80px;
+}
+
+#t-temp {
+	line-height: 80px;
+	height: 80px;
+	font-size: 50px;
+}
+
+#t-day {
+	letter-spacing: 2px;
+}
+
+#future {
+	position: absolute;
+	left: 35%;
+	right: 0;
+	width: 65%;
+	height: 200px;
+	display: table;
+	text-align: center;
+
+}
+
+.f-forecast {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.f-img {
+	width: 50px;
+	height: 50px;
+}
+.f-date {
+	margin-bottom: 10px;
+}
+
